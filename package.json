@@ -1,8 +1,8 @@
 {
   "name": "@akshay-nm/custom-fetch",
-  "version": "1.0.1-alpha3",
+  "version": "1.0.1-alpha4",
   "description": "Wrapper over window.fetch (with abort controller)",
-  "main": "./dist/custom-fetch.js",
+  "main": "dist/custom-fetch.js",
   "repository": "git@github.com:akshay-nm/custom-fetch.git",
   "author": "Akshay Kumar <akshay.nm92@gmail.com>",
   "license": "MIT",
