@@ -2,6 +2,10 @@
 
 A wrapper over window.fetch.
 
+## usage
+
+`yarn add @akshay-nm/custom-fetch`
+
 This one attaches an abort signal on window.fetch, and adds a timeout (can be configured by passing a timeoutDuration param).
 
 Parameters supported:
