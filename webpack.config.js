@@ -6,7 +6,7 @@ module.exports = {
     filename: 'custom-fetch.js',
     library: {
       name: 'CustomFetch',
-      type: 'commonjs2',
+      type: 'var',
     },
   },
   module: {
