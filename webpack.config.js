@@ -1,11 +1,15 @@
 const path = require('path')
 module.exports = {
   target: 'web',
+  experiments: {
+    outputModule: true,
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'custom-fetch.js',
-    library: 'custom-fetch',
-    libraryTarget: 'commonjs2',
+    library: {
+      type: 'module',
+    },
   },
   module: {
     rules: [

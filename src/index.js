@@ -73,4 +73,4 @@ const customFetch = (parameters = {}) => {
   }
 }
 
-module.exports = customFetch
+export default customFetch
