@@ -1,0 +1,21 @@
+{
+  "name": "custom-fetch",
+  "version": "1.0.0",
+  "description": "Wrapper over window.fetch (with abort controller)",
+  "main": "./dist/custom-fetch.js",
+  "repository": "git@github.com:akshay-nm/custom-fetch.git",
+  "author": "Akshay Kumar <akshay.nm92@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  }
+}
