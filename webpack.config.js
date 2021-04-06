@@ -4,6 +4,9 @@ module.exports = {
   experiments: {
     outputModule: true,
   },
+  entry: {
+    path: path.resolve(__dirname, 'src', 'index.js'),
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'custom-fetch.js',
