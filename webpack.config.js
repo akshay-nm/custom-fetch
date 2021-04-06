@@ -4,7 +4,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'custom-fetch.js',
-    library: 'customFetch',
+    library: {
+      name: 'CustomFetch',
+      type: 'commonjs2',
+    },
   },
   module: {
     rules: [
