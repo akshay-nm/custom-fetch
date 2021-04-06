@@ -5,11 +5,11 @@ module.exports = {
     outputModule: true,
   },
   entry: {
-    path: path.resolve(__dirname, 'src', 'index.js'),
+    path: './src/index.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'custom-fetch.js',
+    filename: 'bundle.js',
     library: {
       type: 'module',
     },
