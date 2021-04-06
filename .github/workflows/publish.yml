@@ -13,14 +13,6 @@ jobs:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
       - run: yarn install --frozen-lockfile
-  coverage:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
