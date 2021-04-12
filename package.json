@@ -1,11 +1,12 @@
 {
   "name": "@akshay-nm/custom-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wrapper over window.fetch (with abort controller)",
   "main": "dist/custom-fetch.js",
   "repository": "git@github.com:akshay-nm/custom-fetch.git",
   "author": "Akshay Kumar <akshay.nm92@gmail.com>",
   "license": "MIT",
+  "keywords": ["fetch", "window.fetch", "wrapper", "custom-fetch", "custom fetch", "abortable fetch", "fetch with abort", "nm", "nightmoves", "akshay"],
   "private": false,
   "devDependencies": {
     "@babel/core": "^7.13.14",
